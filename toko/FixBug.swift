@@ -14,6 +14,7 @@ struct FixBugView: View {
     var body: some View {
         NavigationView {
             VStack {
+          
                 
                 HStack{
                     TextField("Add new item", text: $newItem)
